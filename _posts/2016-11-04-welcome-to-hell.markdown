@@ -9,7 +9,7 @@ Jekyll. It's like MovableType for GitHub. Right? Am I Right?
 
 {% assign author = site.data.people[page.author] %}
 <a rel="author"
-  href="{{ author.linkedin }}"
+  href="https://www.linkedin.com/in/{{ author.linkedin }}"
   title="{{ author.name }}">
     {{ author.name }}
 </a>
